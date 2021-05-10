@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Users from "./Components/users/Users";
-import Posts from "./Components/posts/Posts";
+import Users from "../src/components/users/Users";
+import Posts from "../src/components/posts/Posts";
 
 function App() {
     return (

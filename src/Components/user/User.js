@@ -1,10 +1,8 @@
-export default function User({item, search}) {
+export default function User({user}){
     return (
         <div>
-            {item.id} -
-            {item.name} -
-            {item.email}
-            <button onClick={()=>search(item.id)}>details</button>
+                <h3>{user.id} - {user.name}</h3>
+
         </div>
-    );
+    )
 }
